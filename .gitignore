@@ -1,0 +1,66 @@
+# ==========================================
+# Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.env
+*.pem
+*.key
+
+# ==========================================
+# Operating System Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Ehthumbs.db
+Desktop.ini
+
+# ==========================================
+# Common Dependencies (Language Specific)
+# ==========================================
+# Node.js / JavaScript
+node_modules/
+/jspm_packages/
+.npm
+.eslintcache
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Java / Maven / Gradle
+target/
+.gradle/
+build/
+
+# ==========================================
+# IDEs and Code Editors
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# IntelliJ / WebStorm / PyCharm
+.idea/
+*.iws
+*.iml
+
+# ==========================================
+# Logs and Caches
+# ==========================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
